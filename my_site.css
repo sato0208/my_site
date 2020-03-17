@@ -1,0 +1,330 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container{
+	width: 1024px;
+	margin:auto auto;
+	text-align: center;
+	padding: 0px 0 90px 0;
+}
+
+.heading-p{
+	margin: 30px auto 30px auto;
+	font-size: 16px;
+	color: #000000;
+}
+
+.header{
+	width:100%;
+	height:70px;
+	background-color: #EC715F;
+	text-align: right;
+}
+
+.header a{
+	color: white;
+	text-decoration: none;
+}
+
+.fas fa-kiwi-bird {
+	margin-left: 1px;
+	color: white;
+	size: 16px;
+
+}
+.header img{
+	height: 70px;
+}
+
+.logo{
+	display: inline;
+	float: left;
+}
+
+.header li {
+	color: white;
+	size: 16px;
+	margin: 25px 30px;
+	display: inline-block;
+	text-align: right;
+}
+
+
+
+.main-visual{
+	width: 100%;
+	height: 650px;
+	background-image: url(img/mv.png);
+	background-size: cover;
+	padding-top: 200px;
+}
+
+p.mainvi-vi {
+	font-size: 64px;
+	color: #FAFAFA;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+p.mainvi-p {
+	font-size: 20px;
+	color: #FAFAFA;
+	text-align: center;
+	position: relative;
+	z-index: 10;
+}
+
+
+
+.main{
+	width: 100%;
+	background-color: #ECEFF1;
+	color: #000000;
+
+}
+.main-container{
+	width: 920px;
+	margin:auto auto;
+	text-align: center;
+	padding: 0px 0 90px 0;
+}
+
+.heading{
+	font-size: 32px;
+	padding-top: 90px;
+}
+
+.ander {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 8px auto 0 auto;
+    background-color: #EC715F;
+}
+
+
+
+p.sample1 {
+width:300px; height:250px;
+border:none;
+background-image:url(img/sketch.jpg);
+background-size:cover;
+float: left;
+margin:0px 10px 0px 0px;
+padding: 11px;
+}
+
+p.sample2 {
+width:300px; height:250px;
+border:none;
+background-image:url(img/websuku.png);
+background-size:cover;
+float: left;
+margin:0px 10px 0px 0px;
+padding: 11px;
+
+
+}
+
+p.sample3 {
+width:300px; height:250px;
+border:none;
+background-image:url(img/write.jpg);
+background-size:cover;
+float: left;
+margin:0px 10px 0px 0px;
+padding: 11px;
+
+
+}
+
+p.sample4 {
+width:300px; height:250px;
+border:none;
+background-image:url(img/webcamp.png);
+background-size:cover;
+float: left;
+margin:10px 10px 0px 0px;
+padding: 11px;
+
+}
+
+p.sample5 {
+width:300px; height:250px;
+border:none;
+background-image:url(img/talk.jpg);
+background-size:cover;
+float: left;
+margin:10px 10px 0px 0px;
+padding: 11px;
+
+
+}
+
+p.sample6 {
+width:300px; height:250px;
+border:none;
+background-image:url(img/webcamp-mother.png);
+background-size:cover;
+float: left;
+margin:10px 10px 0px 0px;
+padding: 11px;
+
+}
+
+.sample:nth-child(3n) {
+    margin-right: 0;
+}
+.sample:nth-child(-n+3) {
+    margin-top: 0;
+}
+
+.feature {
+	width: 100%;
+	color:#000000;
+}
+
+
+.strength {
+    float: left;
+    width: 320px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.my-icon {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 50%;
+    float: left;
+    background-image: url(img/my-icon.jpg);
+    margin: 0 auto; 
+
+}
+
+h3.feature-title{
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+
+#feature {
+    background-size: cover;
+    background-position: center;
+}
+.profile {
+	width: 100%;
+	background-color: #ECEFF1;
+	padding-bottom: 90px;
+}
+
+.left-content {
+    width: 50%;
+    float: left;
+}
+
+.prof-vi{
+	text-align: left;
+}
+
+.contact {
+	width: 100%;
+	margin-bottom: 90px;
+	text-align: center;
+
+}
+.contact-left{
+	width: 50%;
+	float: left;
+}
+.contact-right{
+	width:50%;
+	float: left;
+}
+
+.social i {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 5px;
+  font-size: 60px;
+}
+
+.footer {
+	width: 100%;
+	height: 60px;
+	background-color: #EC715F;
+	font-size: 16px;
+	color: #FAFAFA;
+	text-align: center;
+	padding: 40px;
+
+}
+
+p .copyright{
+	font-size: 16px;
+	color: #FAFAFA;
+}
+
+
+/*スマートフォンサイズ（425px）以下の際に適応される設定*/
+@media screen and (max-width:425px) {
+	header {
+		width: 100%;
+	}
+	.nav-list {
+		width: 100%;
+	}
+	.nav-list-item {
+		width: 100%;
+		margin: 0 0 10px 0;
+	}
+	.social {
+		display: none;
+	}
+	.main-visual-content {
+		width: 100%;
+	}
+	main {
+		width: 100%;
+	}
+	.blog {
+		width: 100%;
+		margin: 0;
+	}
+	.blog-box {
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	.blog-image {
+		width: 49%;
+	}
+	.blog-text {
+		width: 49%;
+		padding-top: 5px;
+	}
+	.sidebar {
+		width: 100%;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+	.instagram-box {
+		width: 48%;
+		padding-top: 48%;
+	}
+	.instagram-box:nth-child(odd) {
+		margin-right: 4%;
+	}
+	.pagination {
+		margin-bottom: 50px;
+		}}
