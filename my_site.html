@@ -9,23 +9,35 @@
 	<!-- CSSファイルの読み込み -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>My Site</title>
+	<link rel="stylesheet" href="js/script.js">
+
 	<link rel="stylesheet" href="my_site.css">
 </head>
 <body>
 	<!-- ここからヘッダー -->
 	<div class="header">
+		<div class="container">
 			<nav>
 				<div class="logo">
 				<img src="img/logo.png" alt="ロゴ" title="ロゴ">
 				</div>
+				<div id="sp-menu">
 				<ul>
-					<li><i class="fas fa-kiwi-bird"></i>
-					<a href="#"> Profile</li></a>
-					<li><i class="fas fa-kiwi-bird"></i><a href="#"> future</li></a>
-					<li><i class="fas fa-kiwi-bird"></i><a href="#"> Profile</li></a>
-					<li><i class="fas fa-kiwi-bird"></i><a href="#"> contact</li></a>
+					<a href="#portfolio" class="fas fa-kiwi-bird"> Profile</a></li>
+					<a href="#feature" class="fas fa-kiwi-bird"> future</a></li>
+					<a href="#profile" class="fas fa-kiwi-bird"> Profile</a></li>
+					<a href="#contact" class="fas fa-kiwi-bird"> contact</a></li>
 				</ul>
+				<div>
 			</nav>
+			<div id="hm-icon">
+		      <a class="menu-trigger" href="#">
+		        <span class="list-bar"></span>
+		        <span class="list-bar"></span>
+		        <span class="list-bar"></span>
+		      </a>
+		    </div>
+		</div>
 	</div>
 	<!-- <ここまでヘッダー> -->
 
@@ -40,7 +52,8 @@
 
 	<!-- ここからメイン -->
 	<div class="main">
-		<div class="main-container">
+		<div class="container">
+			<div id="portfolio"></div>
 			<h2 class="heading">Portfolio</h2>
 			<div class="ander"></div>
 			<p class="heading-p">It is a long established fact that a reader will be distracted by the readable<br>
@@ -94,6 +107,7 @@
 
 	<!-- ここからプロフィール -->
 	<div class="profile">
+		<div id="profile"></div>
 		<div class="container">
 			<h2 class="heading">Profile</h2>
 			<div class="ander"></div>
@@ -121,6 +135,7 @@
 
 	<!-- ここからコンタクト -->
 	<div class="contact">
+		<div id="contact"></div>
 		<div class="contact-group">
 
 
@@ -140,14 +155,16 @@
 			<h3 class="feature-title">Tell</h3>
 			<a class="heading-p" href="tel:">000-0000-0000</a>
 			</div>
-		
 
 		<div class="contact-right">
 			<h2 class="feature-title">SNS</h2>
 			<div class="social">
-			<i class="fab fa-facebook-square"></i>
-			<i class="fab fa-twitter"></i>
-			<i class="fab fa-instagram-square"></i>
+			<a href="#">
+			<i class="fab fa-facebook-square"></i></a>
+			<a href="#">
+			<i class="fab fa-twitter"></i></a>
+			<a href="#">
+			<i class="fab fa-instagram-square"></i></a>
 			</div>
 		</div>
 	</div>
@@ -165,6 +182,7 @@
 	</div>
 	<!-- ここまでフッター -->
 
-
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
